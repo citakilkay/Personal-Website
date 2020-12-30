@@ -1,0 +1,318 @@
+
+html{
+    scroll-behavior: smooth;
+}
+body{
+    background-image: url(images/Waiau-ornek.jpg);
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.logo{
+    color: #0f0f0f;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 100;
+
+}
+.design,.software{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 800;
+    
+}
+.navbar-brand:hover{
+    color: cadetblue;
+    transition: 0.4s;
+}
+.nav-link{
+    font-family: 'Montserrat', sans-serif;
+}
+.navbar-1{
+    padding-bottom: 3rem;
+    padding-top: 3rem;
+    background-color: transparent;
+    transition: 0.7s all;
+}
+.nav-link{
+    color: #1f1f1f;
+}
+.nav-link:hover{
+    color: #accfcb6e;
+    transition: 0.4s;
+}
+@media(max-width:500px){
+    h2{
+        font-size: 1.7rem !important;
+    }
+      .section-content{
+        position: relative;
+        top: 20px;
+    
+    }
+   
+}
+@media(min-width: 992px){
+    .sinir{
+        line-height: 0.35rem;
+    }
+}
+@media(min-width: 992px){
+    .sinir1{
+        border-right: 0.1em solid #efefefe5;
+        border-color: burlywood;
+    }
+    .logomockup3-kaydirma{
+        position: relative; right: 1em;
+    }
+    .bim-kaydirma{
+        position: relative; right: 0.4em;
+    }
+    .menu-kaydirma{
+        position: relative; right: 0.4em;
+    }
+    .banner-kaydirma{
+        position: relative; right: 0.4em;
+    }
+    .seo-kaydirma{
+        position: relative; right: 0.3em;
+    }
+     .btn2{
+        margin-top: 3.5em;
+    }
+}
+
+.stickyLogo h2{
+    color: #e9e7e6;
+}
+.stickyNavbar{
+   background-color: #1f2122bd;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+}
+.stickyLogo h2:hover{
+    color: #9ea097;
+    transition: 0.3s;
+}
+.stickyNavbar .nav-link{
+    color: #f3f3f3;
+    transition: 0.5s;
+}
+.stickyNavbar .nav-link:hover{
+    color:#738b89bb;
+    transition: 0.5s;
+}
+@media(min-width: 767px){
+    .header-content{
+        height: 100vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        background-image: url(images/background-wiau2.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+    .section-content{
+
+        flex-direction: column;
+        justify-content: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+
+
+}
+@media(max-width: 767px){
+    .navbar-1{
+        position: sticky;
+    }
+}
+
+
+.btn1{
+    border-radius: 0.5em;
+    background-color: rgb(39, 37, 37);
+    color: whitesmoke;
+    font-family: 'Poppins', sans-serif;
+    font-weight:600;
+    font-size:1.3em;
+
+}
+.btn1:hover{
+    font-family: 'Poppins', sans-serif;
+    background-color: #221e1ea2;
+}
+.typed1{
+    color: rgb(133, 30, 30);
+}
+.about-text{
+    background-color: #6c757da3;
+    padding-top: 2em;
+    padding-bottom: 17%;
+    border-radius: 5px;
+    
+}
+
+}
+.about-alt{
+    font-size: 1.5em;
+    font-weight: 700;
+    list-style-type: none;
+    color: rgb(245, 240, 240);
+    font-family: 'Poppins', sans-serif;
+}
+.btn2{
+     color: #0f0f0f;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.4rem;
+    font-weight: bolder;
+    align-items: center;
+    position: relative;
+    left: -6%;
+}
+.btn2:hover{
+    background-color: rgba(0, 128, 128, 0.5);
+}
+.progress-bar{
+    background-color: rgba(165, 42, 42, 0.842);
+     transition-duration: 5s linear;  
+    transition-property: all; 
+}
+.myskills{
+    background-color: #6c757da3;
+    border-radius: 5px;
+     padding-top: 2em;
+    padding-bottom: 15%;
+    transition: 0.5s;
+    
+}
+.hello{
+    color: brown;
+}
+.iamilkay{
+    color: #212532;
+    font-family: 'Poppins', sans-serif;
+    font-weight: lighter;
+}
+hr {
+    width:80%;
+    border-top: 2px solid #424455d8;
+    
+}
+.designer,.architecture,.web-programmer,.designer,.as-an{
+    font-size: 1.1em;
+    font-weight: lighter;
+    font-family: 'Montserrat', sans-serif;
+    
+}
+.freelancer{
+    font-weight: 500;
+}
+.as-an{
+    font-weight: 600;
+    color: #282734;
+}
+.about-item{
+    color: rgb(126, 39, 39);
+    font-weight: bolder;
+    
+}
+.services-alt{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bolder;
+}
+.card-body{
+    background-color: rgba(207, 207, 178, 0.514);
+    border-radius: 9px;
+}
+.card{
+    border-radius: 9px;
+}
+.contact-me{
+
+    background-color: transparent;
+    color: #0d0e0f;
+    border: 2px solid #0d0d0d;
+    border-radius: 50%;
+    padding: 0.6rem;
+}
+.contact-me:hover{
+    background-color: #030f0d;
+    color:whitesmoke;
+    transition: 0.5s;
+}
+.footer-white{
+    background-color: rgba(245, 245, 220, 0.733);
+    
+    border-radius: 95% / 42% 10% 0% 0%;
+}
+.follow-me{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bolder;
+}
+.color-white{
+    color: white;
+}
+.card-radius{
+    border-radius: 0.8%;
+}
+.card-yazi{
+      z-index: 20;
+      font-family:'Open Sans', 'Helvetica Neue', sans-serif;
+      position: absolute;
+      bottom: 0;
+      right: 14%;
+      font-size: 6.2vh;
+      font-weight: bolder;
+      color: #cc1919;
+}
+@media(max-width: 990px){
+    .card-yazi{
+        font-size: 2rem;
+    }
+}
+.fa-arrow-right{
+      z-index: 99;
+      position: absolute;
+      right: 40px;
+      bottom: 20px;
+      font-size: 40px;
+      transform: scale(0.1);
+}
+.card-radius:hover .fa-arrow-right{
+    transform: scale(2);
+}
+.card-gray{
+   filter: grayscale(88%);
+}
+.card-hov:hover .card-gray{
+  filter: grayscale(0%) !important;
+  transition: 0.4s;
+}
+.card-hov:hover .card-radius{
+    transform: scale(1.05);
+    transition: 0.4s;
+    cursor: pointer;
+}
+.fiyat{
+    font-size: 0.7em;
+}
+.yazi{
+    border: 1px solid rgb(105, 95, 95);
+    padding: 0.5em;
+}
+.modal { overflow-y: auto }
+.input-trans{
+     outline: none;
+    background-color: #66656571;
+    border: 1px solid beige;
+}
+.input-trans:focus{
+    background-color: rgba(80, 123, 124, 0.507);
+    border: 1px solid beige;
+}
+.your-message{
+    font-size: 1.5em;
+}

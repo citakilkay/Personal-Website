@@ -1,0 +1,808 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.1/css/all.css"
+        integrity="sha384-vp86vTRFVJgpjF9jiIGPEEqYqlDwgyBgEF109VFjmqGmIY/Y4HV4d3Gp2irVfcrp" crossorigin="anonymous">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+<link
+    href="https://fonts.googleapis.com/css2?family=Montserrat+Subrayada&family=Montserrat:wght@500&family=Open+Sans:wght@600;700&family=Poppins:wght@300;700;800&family=Roboto:wght@300;400;900&display=swap"
+    rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-social/5.1.1/bootstrap-social.min.css"
+        integrity="sha512-f8mUMCRNrJxPBDzPJx3n+Y5TC5xp6SmStstEfgsDXZJTcxBakoB5hvPLhAfJKa9rCvH+n3xpJ2vQByxLk4WP2g=="
+        crossorigin="anonymous" />
+    <link rel="stylesheet" href="portfolyo.css">
+</head>
+
+<body>
+    
+        <nav class="navbar fixed-top navbar-expand-lg navbar-1" id="navbar-scroll">
+                <div class="container-fluid">
+                    <div class="navbar-header">
+                        <a href="/portfolyo/portfolyo.html" id="logo-scroll" class="navbar-brand logo">
+                            <h2>
+                                <span class="design"><strong>DESIGN</strong></span>
+                                <span > & </span>
+                                <span class="software"><strong>SOFTWARE</strong></span>
+                            </h2>
+                        </a>
+                    </div>
+                    <div class="menu float-md-right navbar-dark">
+                        <button class="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#navbar-sitem"
+                            aria-control="navbar-sitem">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+                    </div>
+                    <div class="collapse navbar-collapse" id="navbar-sitem">
+                        <ul class="navbar-nav font-weight-bolder ml-auto mr-lg-5">
+                            <li class="nav-item active"><a class="nav-link sinir sinir1 mr-lg-1" href="portfolyo.html">HOME</a></li>
+                            <li class="nav-item"><a class="nav-link sinir sinir1 mr-lg-1" href="#about-id">ABOUT</a></li>
+                            <li class="nav-item"><a class="nav-link sinir sinir1 mr-lg-1" href="#services-id">SERVİCES</a></li>
+                            <li class="nav-item"><a class="nav-link sinir sinir1 mr-lg-1" href="#">PROJECTS</a></li>
+                            <li class="nav-item"><a class="nav-link sinir sinir1 mr-lg-1" href="#">RESUME</a></li>
+                            <li class="nav-item"><a class="nav-link font-weight-lighter sinir mr-lg-1" href="#contact-id">CONTACT</a></li>
+                        </ul>
+                    </div>
+                </div>
+        </nav>
+        <header>
+            <div class="container-fluid header-content">
+                <div class="row">
+                    <div class="col-lg-6 col-md-6 col-sm-12 text-center">
+                        <div class="jumbotron-fluid text-center">
+                            <h1>I am <span class="typed1"></span></h1><br>
+                            <h2 class="text-dark">I am able to work as a Freelancer.</h2><br>
+                            <a data-toggle="modal" data-target="#hireme" class="btn btn1 btn-dark px-5 text-light">HİRE ME</a>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 col-md-6 col-sm-12">    
+                      
+                    </div>
+                   
+                </div>
+            </div>
+            
+        </header>
+        <div id="hireme" class="modal fade" role="dialog">
+            <div class="modal-dialog modal-lg" role="content">
+                <div class="modal-content bg-transparent">
+                <div class="modal-header">
+                    <h1 class="modal-title text-light">WHAT DO YOU NEED?</h1>
+                    <button class="close color-white" data-dismiss="modal">
+                        <span class="fas fa-times"></span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-12 my-4">
+                                <a data-dismiss="modal" data-toggle="modal" href="#arch-modal-id" class="card card-radius bg-transparent card-hov">
+                                    <img class="card-img card-radius card-gray" src="images-benim/architectural-modal.jpg" alt="archtectural">
+                                    <h2 class="card-title card-yazi">ARCHİTECTURAL SERVİCES</h2>
+                                    <i class="fas fa-arrow-right text-white"></i>
+                                </a>
+                            </div>
+                            <div class="col-12 my-4 bg-transparent card-hov">
+                                    <a data-dismiss="modal" data-toggle="modal" href="#design-modal-id" class="card card-radius bg-transparent">
+                                        <img class="card-img card-gray" src="images-benim/design-modal.jpg" alt="archtectural">
+                                         <h2 class="card-title card-yazi">DESİGN SERVİCES</h2>
+                                        <i class="fas fa-arrow-right text-white"></i>
+                                    </a>
+                            </div>
+                            <div class="col-12 my-4 bg-transparent card-hov">
+                                <a data-dismiss="modal" data-toggle="modal" href="#web-modal-id" class="card card-radius bg-transparent">
+                                    <img class="card-img card-gray" src="images-benim/web-modal.jpg" alt="archtectural">
+                                    <h2 class="card-title card-yazi">WEB SERVİCES</h2>
+                                    <i class="fas fa-arrow-right text-white"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                </div>
+            </div>
+
+        </div>
+                <section class="services mt-5" id="services-id">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-12 text-center">
+                                <h2>MY SERVİCES</h2>
+                                <hr>
+                                <br>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-lg-4 col-md-6 col-md-12">
+                                <div class="jumbotron-fluid mb-5">
+                                    <div class="card bg-transparent">
+                                        <div class="card-body card-color">
+                
+                                            <h5 class="services-alt text-center my-3">Architectural Services</h5>
+                                            <hr>
+                
+                                            <div id="carousel-id-architect" class="carousel slide" data-ride="carousel">
+                                                <div class="carousel-inner">
+                                                    <div class="carousel-item active">
+                
+                                                        <img class="card-img-top bg-secondary"
+                                                            src="images-benim/architecture/3dinterior.jpg" alt="architectural"
+                                                            style="height: 52vh; width: auto; display: block; margin: auto;">
+                                                        <h6 class="text-center text-danger mt-3">3D interrior Modelling</h6>
+                                                    </div>
+                                                    <div class="carousel-item">
+                                                        <img class="card-img-top bg-secondary display-2"
+                                                            src="images-benim/architecture/2dblueprint.jpg" alt="architectural"
+                                                            style="height: 52vh; width: auto; display: block; margin: auto;">
+                                                        <h6 class="text-center text-danger mt-3">2D Plan Drawings</h6>
+                                                    </div>
+                                                    <div class="carousel-item">
+                                                        <img class="card-img-top bg-secondary display-1"
+                                                            src="images-benim/architecture/render1.jpg" alt="architectural"
+                                                            style="height: 52vh; width:auto; display: block; margin: auto;">
+                                                        <h6 class="text-center text-danger mt-3">3D Exterior Modelling</h6>
+                                                    </div>
+                                                    <div class="carousel-item">
+                                                        <img class="card-img-top bg-secondary display-2"
+                                                            src="images-benim/architecture/resim2.jpg" alt="architectural"
+                                                            style="height: 52vh; width: auto; display: block; margin: auto;">
+                                                        <h6 class="text-center text-danger mt-3">Architectural Presentation</h6>
+                                                    </div>
+                                                    <div class="carousel-item">
+                                                        <img class="card-img-top bg-secondary display-3"
+                                                            src="images-benim/architecture/teknikresim3.jpg" alt="architectural"
+                                                            style="height: 52vh; width: auto; display: block; margin: auto;">
+                                                        <h6 class="text-center text-danger mt-3">Converting sketch to CAD</h6>
+                                                    </div>
+                                                    <div class="carousel-item">
+                                                        <img class="card-img-top bg-secondary display-4"
+                                                            src="images-benim/architecture/teknikresim4.jpg" alt="architectural"
+                                                            style="height: 52vh; width: auto; display: block; margin: auto;">
+                                                        <h6 class="text-center text-danger mt-3">Technical(CAD) Drawing</h6>
+                                                    </div>
+                                                    <div class="carousel-item ">
+                                                        <img class="card-img-top bg-secondary bim-kaydirma display-1"
+                                                            src="images-benim/architecture/BIM-GRAPH.jpg" alt="architectural"
+                                                            style="height: 52vh; width: auto; display: block; margin: auto;">
+                                                        <h6 class="text-center text-danger mt-3">BIM Modelling</h6>
+                                                    </div>
+                                                    <div class="carousel-item">
+                                                        <img class="card-img-top bg-secondary display-2"
+                                                            src="images-benim/architecture/renderexterior.jpg" alt="architectural"
+                                                            style="height: 52vh; width: auto; display: block; margin: auto;">
+                                                        <h6 class="text-center text-danger mt-3">Photorealistic Architectural Render
+                                                        </h6>
+                
+                                                    </div>
+                                                    <div class="carousel-item">
+                                                        <img class="card-img-top bg-secondary display-2"
+                                                            src="images-benim/architecture/landscaperender.jpg" alt="architectural"
+                                                            style="height: 52vh; width: auto; display: block; margin: auto;">
+                                                        <h6 class="text-center text-danger mt-3">Landscape Design</h6>
+                                                    </div>
+                                                </div>
+                                                <a class="carousel-control-prev" href="#carousel-id-architect" role="button"
+                                                    data-slide="prev">
+                                                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                                    <span class="sr-only"></span>
+                                                </a>
+                                                <a class="carousel-control-next" href="#carousel-id-architect" role="button"
+                                                    data-slide="next">
+                                                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                                    <span class="sr-only"></span>
+                                                </a>
+                                            </div>
+                
+                                            <div class="text-center">
+                                                <br>
+                                                <a data-toggle="modal" data-target="#arch-modal-id" class="btn btn-outline-dark">Get More Information</a>
+                                            </div>
+                                            <br>
+                                        </div>
+                                    </div>
+                
+                                </div>
+                            </div>
+                            <div class="col-lg-4 col-md-6 col-md-12">
+                                <div class="jumbotron-fluid mb-5">
+                                    <div class="card bg-transparent">
+                                        <div class="card-body card-color">
+                                            <h5 class="services-alt text-center my-3">Design Services</h5>
+                                            <hr>
+                                            <div id="carousel-id-design" class="carousel slide" data-ride="carousel">
+                                                <div class="carousel-inner">
+                                                    <div class="carousel-item active">
+                
+                                                        <img class="card-img-top logomockup3-kaydirma bg-secondary"
+                                                            src="images-benim/design/logomockup3.jpg" alt="architectural"
+                                                            style="height: 52vh; width: auto; display: block; margin: auto;">
+                                                        <h6 class="text-center text-danger mt-3">Logo Design</h6>
+                                                    </div>
+                                                    <div class="carousel-item">
+                                                        <img class="card-img-top bg-secondary display-1"
+                                                            src="images-benim/design/flyer2.jpg" alt="architectural"
+                                                            style="height: 52vh; width: auto; display: block; margin: auto;">
+                                                        <h6 class="text-center text-danger mt-3">Poster Design</h6>
+                                                    </div>
+                                                    <div class="carousel-item">
+                                                        <img class="card-img-top bg-secondary display-2"
+                                                            src="images-benim/design/flyer3.jpg" alt="architectural"
+                                                            style="height: 52vh; width: auto; display: block; margin: auto;">
+                                                        <h6 class="text-center text-danger mt-3">Fleyer Design</h6>
+                                                    </div>
+                                                    <div class="carousel-item">
+                                                        <img class="card-img-top bg-secondary display-3"
+                                                            src="images-benim/design/businesscard.jpg" alt="architectural"
+                                                            style="height: 52vh; width: auto; display: block; margin: auto;">
+                                                        <h6 class="text-center text-danger mt-3">Business Card Design</h6>
+                                                    </div>
+                                                    <div class="carousel-item">
+                                                        <img class="card-img-top bg-secondary display-4"
+                                                            src="images-benim/design/presentation.jpg" alt="architectural"
+                                                            style="height: 52vh; width: auto; display: block; margin: auto;">
+                                                        <h6 class="text-center text-danger mt-3">Presentation Preparing</h6>
+                                                    </div>
+                                                    <div class="carousel-item">
+                                                        <img class="card-img-top bg-secondary display-1"
+                                                            src="images-benim/design/PORTFOLYOkapakgerçek.jpg" alt="architectural"
+                                                            style="height: 52vh; width: auto; display: block; margin: auto;">
+                                                        <h6 class="text-center text-danger mt-3">Portfolio Design</h6>
+                                                    </div>
+                                                    <div class="carousel-item">
+                                                        <img class="card-img-top bg-secondary menu-kaydirma display-2"
+                                                            src="images-benim/design/menu.jpg" alt="architectural"
+                                                            style="height: 52vh; width: auto; display: block; margin: auto;">
+                                                        <h6 class="text-center text-danger mt-3">Menu Design</h6>
+                                                    </div>
+                                                    <div class="carousel-item">
+                                                        <img class="card-img-top bg-secondary banner-kaydirma display-2"
+                                                            src="images-benim/design/banner.jpg" alt="architectural"
+                                                            style="height: 52vh; width: auto; display: block; margin: auto;">
+                                                        <h6 class="text-center text-danger mt-3">Banner Design</h6>
+                                                    </div>
+                
+                                                </div>
+                                                <a class="carousel-control-prev" href="#carousel-id-design" role="button"
+                                                    data-slide="prev">
+                                                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                                    <span class="sr-only"></span>
+                                                </a>
+                                                <a class="carousel-control-next" href="#carousel-id-design" role="button"
+                                                    data-slide="next">
+                                                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                                    <span class="sr-only"></span>
+                                                </a>
+                                            </div>
+                                            <div class="text-center">
+                                                <br>
+                                                <a data-toggle="modal" data-target="#design-modal-id" class="btn btn-outline-dark">Get More Information</a>
+                                            </div>
+                                            <br>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-4 col-md-6 col-md-12">
+                                <div class="jumbotron-fluid mb-5">
+                                    <div class="card bg-transparent">
+                                        <div class="card-body card-color">
+                                            <h5 class="services-alt text-center my-3">Web Services</h5>
+                                            <hr>
+                                            <div id="carousel-id-website" class="carousel slide" data-ride="carousel">
+                                                <div class="carousel-inner">
+                                                    <div class="carousel-item active">
+                                                        <img class="card-img-top bg-secondary"
+                                                            src="images-benim/website/websitesaat.jpg" alt="architectural"
+                                                            style="height: 52vh; width: auto; display: block; margin: auto;">
+                                                        <h6 class="text-center text-danger mt-3">User Experience Testing</h6>
+                                                    </div>
+                                                    <div class="carousel-item">
+                                                        <img class="card-img-top bg-secondary display-4"
+                                                            src="images-benim/website/websitedesigner.jpg" alt="architectural"
+                                                            style="height: 52vh; width: auto; display: block; margin: auto;">
+                                                        <h6 class="text-center text-danger mt-3">Full Website Setup with domain</h6>
+                                                    </div>
+                                                    <div class="carousel-item">
+                                                        <img class="card-img-top bg-secondary display-1"
+                                                            src="images-benim/website/websitebinary.jpg" alt="architectural"
+                                                            style="height: 52vh; width: auto; display: block; margin: auto;">
+                                                        <h6 class="text-center text-danger mt-3">Website Design</h6>
+                                                    </div>
+                                                    <div class="carousel-item">
+                                                        <img class="card-img-top bg-secondary display-2"
+                                                            src="images-benim/website/sonkullanıcı.jpg" alt="architectural"
+                                                            style="height: 52vh; width: auto; display: block; margin: auto;">
+                                                        <h6 class="text-center text-danger mt-3">Creating Responsive Websites</h6>
+                                                    </div>
+                                                    <div class="carousel-item">
+                                                        <img class="card-img-top bg-secondary seo-kaydirma display-2"
+                                                            src="images-benim/website/seoTexture.jpg" alt="architectural"
+                                                            style="height: 52vh; width: auto; display: block; margin: auto;">
+                                                        <h6 class="text-center text-danger mt-3">Search Engine Optimization</h6>
+                                                    </div>
+                
+                                                </div>
+                                                <a class="carousel-control-prev" href="#carousel-id-website" role="button"
+                                                    data-slide="prev">
+                                                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                                    <span class="sr-only"></span>
+                                                </a>
+                                                <a class="carousel-control-next" href="#carousel-id-website" role="button"
+                                                    data-slide="next">
+                                                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                                    <span class="sr-only"></span>
+                                                </a>
+                                            </div>
+                                            <div class="text-center">
+                                                <br>
+                                                <a data-toggle="modal" data-target="#web-modal-id" class="btn btn-outline-dark">Get More Information</a>
+                                            </div>
+                                            <br>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                
+                        </div>
+                
+                    </div>
+                
+                </section>
+                <br>
+                <div id="web-modal-id" class="modal fade" role="dialog">
+                    <div class="modal-dialog modal-lg" role="content">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h1 class="modal-title text-dark">My Design Services and Fees</h1>
+                                <button class="close" data-dismiss="modal">
+                                    <span class="fas fa-times"></span>
+                                </button>
+                            </div>
+                            <div class="modal-body">
+                                <div class="container">
+                                    <div class="row">
+                                        <div class="col-12 my-3">
+                                            <div class="yazi mt-5">
+                                                <h5 class="font-weight-bolder text-danger">Creating Responsive Website</h5>
+                                                <p>Please contact me for fees of this services.</p>
+                                            </div>
+                                            <div class="yazi mt-5">
+                                                <h5 class="font-weight-bolder text-danger">Search Engine Optimization(SEO)
+                                                </h5>
+                                                <p>Please Contact me for fees of this services.</p>
+                                            </div>
+                                            <div class="yazi mt-5">
+                                                <h5 class="font-weight-bolder text-danger">Website Design</h5>
+                                                <p>Creating unique website design using with Photoshop,HTML,CSS,Javascript...Please Contact me for fees of this services.</p>
+                                            </div>
+                                            <div class="yazi mt-5">
+                                                <h5 class="font-weight-bolder text-danger">User Experience Test
+                                                    <span class="fiyat badge badge-dark badge-pill text-white">$5 for each testing</span>
+                                                </h5>
+                                                <p>Testing Web and Mobile Apps with simulating eye-tracking studies and preference tests with power of AI.</p>
+                                            </div>
+                                            <div class="mt-2">
+                                                <h5>What will you get?</h5>
+                                                <ul>
+                                                    <li>Fully Responsive Website</li>
+                                                     <li>Figma,xd,Photoshop and Sketch to webflow</li>
+                                                    <li>Animation and interaction</li>
+                                                    <li>Custom Html/CSS/Javascript</li>
+                                                </ul>
+                                                <p>I can deliver <strong>between 2 hours and 10 days.</strong></p>
+                                                <p><strong>First revise is free for every job.</strong>But after first revise,other revisions are charged according to
+                                                    the job.</p>
+                                                <p>The stated fees are for standard jobs. Extra services may increase the fee.</p>
+                                            </div>
+                                        </div>
+                                        <div class="container-fluid">
+                                            <form class="mt-3" action="https://formspree.io/f/xnqoowqz" method="POST">
+                                                <div class="form-group row">
+                                                    <label for="yourname" class="col-12 col-sm-2 col-form-label ml-auto">Your Name</label>
+                                                    <input class="form-control col-12 col-sm-4" name="name" id="name" type="text" required>
+                                                    <label for="email" class="col-12 col-sm-2 col-form-label">Your Email</label>
+                                                    <input class="form-control col-12 col-sm-4" name="email" id="email" type="email" required>
+                                                    <h4><label class="col-12 col-form-label" for="youneed">Please type what do you need?</label></h4>
+                                                    <textarea class="form-control col-12" id="youneed" name="youneed" rows="10"></textarea>
+                                                </div>
+                                                <div>
+                                                    <button type="button" class="btn btn-secondary float-right ml-auto" data-dismiss="modal">Cancel</button>
+                                                    <button type="submit" value="send" class="btn btn-primary float-right mr-1">Submit</button>
+                                        
+                                                </div>
+                                        
+                                            </form>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div id="design-modal-id" class="modal fade" role="dialog">
+                    <div class="modal-dialog modal-lg" role="content">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h1 class="modal-title text-dark">My Design Services and Fees</h1>
+                                <button class="close" data-dismiss="modal">
+                                    <span class="fas fa-times"></span>
+                                </button>
+                            </div>
+                            <div class="modal-body">
+                                <div class="container">
+                                    <div class="row">
+                                        <div class="col-12 my-3">
+                                            <div class="yazi mt-5">
+                                                <h5 class="font-weight-bolder">Logo Design
+                                                    <span class="fiyat badge badge-danger badge-pill">$10 for 3 logo alternatives + 1 free revision</span>
+                                                    <span class="fiyat badge badge-dark badge-pill">$1 for each revision</span>
+                                                </h5>
+                                                <p>Choose from 3 creative and modern logo alternatives which is specially designed for you.
+                                                    And let us revise it to make it more suitable for your brand and business.</p>
+                                            </div>
+                                            <div class="yazi mt-5">
+                                                <h5 class="font-weight-bolder">Poster and Flyer Design
+                                                    <span class="fiyat badge badge-danger badge-pill">$4 for each sheet + 1 free revision</span>
+                                                    <span class="fiyat badge badge-dark badge-pill">$1 for each revision</span>
+                                                </h5>
+                                                <p><strong>The stated fee is for A5 size.</strong>Designing suitable for your purpose in the concept you desired...</p>
+                                            </div>
+                                            <div class="yazi mt-5">
+                                                <h5 class="font-weight-bolder">Web Banner Design
+                                                    <span class="fiyat badge badge-danger badge-pill">$4 for each banner + 1 free revision</span>
+                                                    <span class="fiyat badge badge-dark badge-pill">$1 for each revision</span>
+                                                </h5>
+                                                <p>Designing header,slider banners which are staring,creative, suitable for your business and advertising purpose in the concept you desired...</p>
+                                            </div>
+                                            <div class="yazi mt-5">
+                                                <h5 class="font-weight-bolder">Menu Design
+                                                    <span class="fiyat badge badge-danger badge-pill">$7 for each sheet + 1 free revision</span>
+                                                    <span class="fiyat badge badge-dark badge-pill">$1 for each revision</span>
+                                                    <p>Designing Menu in Modern, Natural, Luxury etc. concepts...</p>
+                                                </h5>
+                                                <p></p>
+                                            </div>
+                                            <div class="yazi mt-5">
+                                                <h5 class="font-weight-bolder">Portfolio and CV Design
+                                                    <span class="fiyat badge badge-danger badge-pill">$10 for each sheet + 1 free revision</span>
+                                                    <span class="fiyat badge badge-dark badge-pill">$3 for each revision</span>
+                                                </h5>
+                                                <p>Designing professional and creative portfolio and CV designs that highlight your skills and experience...</p>
+                                            </div>
+                                            <div class="yazi mt-5">
+                                                <h5 class="font-weight-bolder">Business Card Design
+                                                    <span class="fiyat badge badge-danger badge-pill">$3 for each sheet + 1 free revision</span>
+                                                    <span class="fiyat badge badge-dark badge-pill">$1 for each revision</span>
+                                                </h5>
+                                                <p>Designing good-looking,modern and professional business card compatible with your business...</p>
+                                            </div>
+                                            <div class="mt-2">
+                                                <h5>What I deliver?</h5>
+                                                <ul>
+                                                    <li><strong>PSD</strong> format</li>
+                                                    <li><strong>AI</strong> format</li>
+                                                    <li><strong>300 dpi JPEG and PNG</strong> format</li>
+                                                    <li><strong>High Quality PDF</strong> format</li>
+                                                    <li><strong>3D mockup</strong> format</li>
+                                                    <li><strong>For other formats,please contact me.</strong></li>
+                                                </ul>
+                                                <p>I can deliver <strong>between 2 hours and 7 days.</strong></p>
+                                                <p>The stated fees are for standard jobs. Extra services may increase the fee.</p>
+                                            </div>
+                                        </div>
+                                        <div class="container-fluid">
+                                            <form class="mt-3" action="https://formspree.io/f/mrgoojbe" method="POST">
+                                                <div class="form-group row">
+                                                    <label for="yourname" class="col-12 col-sm-2 col-form-label ml-auto">Your Name</label>
+                                                    <input class="form-control col-12 col-sm-4" name="name" id="name" type="text" required>
+                                                    <label for="email" class="col-12 col-sm-2 col-form-label">Your Email</label>
+                                                    <input class="form-control col-12 col-sm-4" name="email" id="email" type="email" required>
+                                                    <h4><label class="col-12 col-form-label" for="youneed">Please type what do you need?</label></h4>
+                                                    <textarea class="form-control col-12" id="youneed" name="youneed" rows="10"></textarea>
+                                                </div>
+                                                <div>
+                                                    <button type="button" class="btn btn-secondary float-right ml-auto" data-dismiss="modal">Cancel</button>
+                                                    <button type="submit" value="send" class="btn btn-primary float-right mr-1">Submit</button>
+                                        
+                                                </div>
+                                        
+                                            </form>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div id="arch-modal-id" class="modal fade" role="dialog">
+                    <div class="modal-dialog modal-lg" role="content">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                 <h1 class="modal-title text-dark">My Architectural Services and Fees</h1>
+                                <button class="close" data-dismiss="modal">
+                                    <span class="fas fa-times"></span>
+                                </button>
+                            </div>
+                            <div class="modal-body">
+                                <div class="container">
+                                    <div class="row">
+                                        <div class="col-12 my-3">
+                                            <div class="yazi mt-5">
+                                                <h5 class="font-weight-bolder">3D MODEL(Exterior) with Renders
+                                                    <span class="fiyat badge badge-danger badge-pill">$7 for each 100m2</span>
+                                                    <span class="fiyat badge badge-dark badge-pill">$2 for each Render image</span>
+                                                </h5>
+                                                <p><strong>Just Renders order</strong> or <strong>just 3D Model order</strong> are possible.</p>
+                                            </div>
+                                            <div class="yazi mt-4">
+                                                <h5 class="font-weight-bolder">3D MODEL(Interior) with Renders
+                                                    <span class="fiyat badge badge-danger badge-pill">$10 for each 100m2</span>
+                                                    <span class="fiyat badge badge-dark badge-pill">$3 for each Render image</span>
+                                                </h5>
+                                                <p><strong>Just Renders order</strong> or <strong>just 3D Model order</strong> are possible.</p>
+                                            </div>
+                                            <div class="yazi mt-4">
+                                                <h5 class="font-weight-bolder">2D Drawing(Interior-Exterior Design)
+                                                    <span class="fiyat badge badge-danger badge-pill">$6 for each 100m2</span>
+                                                </h5>
+                                                <p>Floor Plan Drawings with conceptual rendering.</p>
+                                            </div>
+                                            <div class="yazi mt-4">
+                                                <h5 class="font-weight-bolder">Elevation-Section Drawing
+                                                    <span class="fiyat  badge badge-danger badge-pill">$1 for each 10m</span>
+                                                </h5>
+                                                <p>The Fee is for 1/100 scale.For other scale,please contact me.</p>
+                                            </div>
+                                            <div class="yazi mt-4">
+                                                <h5 class="font-weight-bolder">Site-Landscape Design
+                                                    <span class="fiyat badge badge-danger badge-pill">$2 for each 100m2</span>
+                                                </h5>
+                                            </div>
+                                            <div class="yazi mt-4">
+                                                <h5 class="font-weight-bolder">Converting handsketch to CAD drawing.
+                                                    <span class="fiyat badge badge-danger badge-pill">$1 for each 20m2</span>
+                                                </h5>
+                                            </div>
+                                            <div class="yazi mt-4">
+                                                <h5 class="font-weight-bolder">Architectural Presentation
+                                                </h5>
+                                                <p>Good-looking,easy to understand presentations with using architectural drawings and analysis.<strong>Please contact me for fees of this service.</strong></p>
+                                            </div>
+                                            <div class="yazi mt-4">
+                                                <h5 class="font-weight-bolder">Technical Drawing(1/50,1/20,1/5 etc.)
+                                                </h5>
+                                                <p><strong>Contact me for fees of this services.</strong></p>
+                                            </div>
+                                            <div class="yazi mt-4">
+                                                <h5 class="font-weight-bolder">BIM 3D Modelling(LOD100 to LOD350)
+                                                </h5>
+                                                <p>The Level of Development is up to LOD 350 depends on the input drawings and the requirements from clients.
+                                                The input drawings would be in PDF, CAD files or even hand-sketches.<strong>Please contact me for fees of this services.</strong></p>
+                                            </div>
+                                            <div class="mt-2">
+                                                <h5>What I Deliver?</h5>
+                                                <ul>
+                                                    <li>Scaled <strong>pdf</strong> Format</li>
+                                                    <li><strong>.jpeg</strong> Format</li>
+                                                    <li><strong>.dwg,.dxf</strong> Format</li>
+                                                    <li><strong>.psd</strong> Format</li>
+                                                    <li><strong>.pptx</strong> Format</li>
+                                                    <li><strong>.dae</strong> Format</li>
+                                                    <li><strong>.rvt</strong> Format</li>
+                                                    <li><strong>.pln</strong> Format</li>
+                                                    <li><strong>For other file format please contact me.</strong></li>
+                                                </ul>
+                                                <p>I can deliver <strong>between 1 and 18 days.</strong></p>
+                                                <p><strong>First revise is free for every job.</strong>But after first revise,other revisions are charged according to the job.</p>
+                                                <p>The stated fees are for standard jobs. Extra services may increase the fee.</p>
+                                            </div>
+                                        </div>
+                                        <div class="container-fluid">
+                                            <form class="mt-3" action="https://formspree.io/f/mgeppdvw" method="POST">
+                                                <div class="form-group row">
+                                                    <label for="yourname" class="col-12 col-sm-2 col-form-label ml-auto">Your Name</label>
+                                                    <input class="form-control col-12 col-sm-4" name="name" id="name" type="text" required>
+                                                    <label for="email" class="col-12 col-sm-2 col-form-label">Your Email</label>
+                                                    <input class="form-control col-12 col-sm-4" name="email" id="email" type="email" required>
+                                                    <h4><label class="col-12 col-form-label" for="youneed">Please type what do you need?</label></h4>
+                                                    <textarea class="form-control col-12" id="youneed" name="youneed" rows="10"></textarea>
+                                                </div>
+                                                <div>
+                                                    <button type="button" class="btn btn-secondary float-right ml-auto" data-dismiss="modal">Cancel</button>
+                                                    <button type="submit" value="send" class="btn btn-primary float-right mr-1">Submit</button>
+                                        
+                                                </div>
+                                        
+                                            </form>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+        <section class="contact-section" id="contact-id">
+            <h2 class="text-center font-weight-bolder">CONTACT ME</h2>
+            <br>
+            <div class="container">
+                <div class="row">
+                    <div class="col-1"></div>
+                <form class="mt-3 col-10 col-sm-9" action="https://formspree.io/f/myybbokl" method="POST">
+                    <div class="form-group row">
+                        <label for="yourname" class="col-3 col-sm-2 col-form-label mb-3 text-center">Your Name</label>
+                        <input class="form-control col-9 col-sm-4 mb-3 mr-auto input-trans" name="name" id="name" type="text" required>
+                        <label for="email" class="col-3 col-sm-2 col-form-label mb-3 text-center">Your Email</label>
+                        <input class="form-control col-9 col-sm-4 mb-3 mr-auto input-trans" name="email" id="email" type="email" required>
+                        <h3 class="col-12 col-form-label mb-1"><label for="youneed" class="your-message">Your Message</label></h3>
+                        <textarea class="form-control col-12 mb-3 mr-auto input-trans" id="youneed" name="youneed" rows="10"></textarea>
+                    </div>
+                    <div>
+                        <button type="submit" value="send" class="btn btn-primary float-right mr-1">Send</button>
+                    </div>
+            
+                </form>
+                <div class="col-1"></div>
+                </div>
+            </div>
+        
+        </section>
+        <br>
+        <section class="about py-4" id="about-id">
+            <div class="container section-content">
+                <div class="row">
+                    
+                    <div class="col-lg-6 col-md-6 col-sm-12">
+                        <div class="jumbotron-fluid about-text mx-2 my-2">
+                            <h1 class="text-center">ABOUT ME</h1>
+                            <hr>
+                            <br>
+                            <ul class="about-alt">
+                                <h2>
+                                    <span class="hello"><strong>Hello,</strong></span><span class="iamilkay"><strong>I am Ilkay.</strong></span>
+                                </h2>
+                                
+                                <h4 class="text-dark freelancer">I work as a freelancer for 1 years.</h4>
+                                <div class="mx-md-4">
+                                <span class="as-an">As an Architect;</span>
+                                <p class="text-dark architecture">I do architectural photorealistic <span class="about-item">3D Models, 2D Designs, Technical Drawings, Architectural Presentations.</span></p>
+                                <span class="as-an">As a Web-Programmer;</span>
+                                <p class="text-dark web-programmer">I create SEO compatible, increasing brand value, mobile and tablet compatible <span class="about-item">Websites.</span></p>
+                                <span class="as-an">As a Designer;</span>
+                                <p class="text-dark designer">I make good-looking, creative <span class="about-item">Logos, CVs, Portfolios, Banners, Flyer Designs.</span></p>
+                                </div>
+                                <!--<li><i class="fas fa-birthday-cake fa-2x"></i>11.09.1998</li>
+                                <li><i class="fas fa-envelope fa-2x"></i>citakilkay@gmail.com</li>
+                                <li><i class="fas fa-map-marker-alt fa-2x"></i>Kadikoy/ISTANBUL</li>
+                                <li><i class="fab fa-whatsapp fa-2x"></i>+905433134408</li>
+                                -->
+                                
+                                <p class="text-center"><a href="#" class="btn btn2 btn-success px-lg-5" type="button">DOWNLOAD CV</a></p>
+                                
+                            </ul>
+                            <ul>
+                                
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 col-md-6 col-sm-12 text-center">
+                        <div class="jumbotron-fluid myskills mx-2 my-2">
+                            <h1>MY SKİLLS</h1>
+                            <hr>
+                            <br>
+                            <h3 class="my-1">AUTOCAD</h3>
+                            <div class="progress  mx-5">
+                                <div class="progress-bar" role="progressbar" style="width:0%" aria-valuenow="90" aria-valuemin="0"
+                                    aria-valuemax="100">
+                                </div>
+                            </div>
+                            <br>
+                            <h3 class="my-1">ARCHICAD</h3>
+                            <div class="progress mx-5">
+                                <div class="progress-bar" role="progressbar" style="width:0%" aria-valuenow="83" aria-valuemin="0"
+                                    aria-valuemax="100">
+                                </div>
+                            </div>
+                            <br>
+                            <h3 class="my-1">LUMION</h3>
+                            <div class="progress mx-5">
+                                <div class="progress-bar" role="progressbar" style="width:0%" aria-valuenow="79" aria-valuemin="0"
+                                    aria-valuemax="100">
+                                </div>
+                            </div>
+                            <br>
+                            <h3 class="my-1">PHOTOSHOP</h3>
+                            <div class="progress mx-5">
+                                <div class="progress-bar" role="progressbar" style="width:0%" aria-valuenow="77" aria-valuemin="0"
+                                    aria-valuemax="100">
+                                </div>
+                            </div>
+                            <br>
+                            <h3 class="my-1">HTML</h3>
+                            <div class="progress mx-5">
+                                <div class="progress-bar" role="progressbar" style="width:0%" aria-valuenow="73" aria-valuemin="0"
+                                    aria-valuemax="100">
+                                </div>
+                            </div>
+                            <br>
+                            <h3 class="my-1">CSS</h3>
+                            <div class="progress mx-5">
+                                <div class="progress-bar" role="progressbar" style="width:0%" aria-valuenow="70" aria-valuemin="0"
+                                    aria-valuemax="100">
+                                </div>
+                            </div>
+                            <br>
+                            <h3 class="my-1">JAVASCRIPT</h3>
+                            <div class="progress mx-5">
+                                <div class="progress-bar" role="progressbar" style="width:0%" aria-valuenow="60" aria-valuemin="0"
+                                    aria-valuemax="100">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    </section>
+    <footer>
+        <div class="footer-landpage">
+            <div class="footer-white pb-5">
+            <div class="container mt-5">
+                
+                <div class="row">
+                <div class="col-12">
+                <div class="footer-header text-center mt-5">
+                    <a href="#" id="logo-scroll" class="navbar-brand logo">
+                        <h2 class="mb-sm-4">
+                            <span class="design"><strong>DESIGN</strong></span>
+                            <span> & </span>
+                            <span class="software"><strong>SOFTWARE</strong></span>
+                        </h2>
+                    </a>
+                </div>
+                </div>
+            </div>
+            <div class="row">
+                    <div class="col-md-2 py-md-5"><a class="footer-item nav-link font-weight-bolder text-dark" href="portfolyo.html">HOME</a></div>
+                    <div class="col-md-2 py-md-5"><a class="footer-item nav-link font-weight-bolder text-dark" href="#about-id">ABOUT</a></div>
+                    <div class="col-md-2 py-md-5"><a class="footer-item nav-link font-weight-bolder text-dark" href="#services-id">SERVİCES</a></div>
+                    <div class="col-md-2 py-md-5"><a class="footer-item nav-link font-weight-bolder text-dark" href="#">PROJECTS</a></div>
+                    <div class="col-md-2 py-md-5"><a class="footer-item nav-link font-weight-bolder text-dark" href="#">RESUME</a></div>
+                    <div class="col-md-2 py-md-5"><a class="footer-item nav-link text-dark" href="#contact-id">CONTACT</a></div>
+            </div>
+            <h4 class="text-center follow-me my-2">CONTACT WİTH ME ON</h4>
+            <ul class="list-inline text-center">
+                <li class="list-inline-item mt-2"><a href="https://www.facebook.com/profile.php?id=100001747084705" target="_blank"><i class="fab fa-facebook-square contact-me"></a></i></li>
+                <li class="list-inline-item mt-2"><a href="https://www.instagram.com/studio_vasque/" target="_blank"><i class="fab fa-instagram contact-me"></a></i></li>
+                <li class="list-inline-item mt-2"><a href="https://twitter.com/citak_ilkay" target="_blank"><i class="fab fa-twitter contact-me"></a></i></li>
+                <li class="list-inline-item mt-2"><a href="https://www.linkedin.com/in/ilkay-citak-3397b4155/" target="_blank"><i class="fab fa-linkedin-in contact-me"></a></i></li>
+            </ul>
+            <h6 class="text-muted text-center">Copyright ©2020 All rights reserved|This Website created by Ilkay Citak</h6>
+            </div>
+            </div>
+        </div>
+    </footer>
+
+        
+    <script src="https://code.jquery.com/jquery-3.5.1.js"
+        integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc=" crossorigin="anonymous"></script>
+        <script src="https://unpkg.com/@popperjs/core@2/dist/umd/popper.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+        integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.11/typed.js"
+        integrity="sha512-HkPTAAm+s4i8XlHc0dmKTmR7gEo5W3mwtgRNqOMkYdWAK/OaS89ZwQ2jIOyVx7ZrtCEDxb245+rMjN/mmOj/DQ=="
+        crossorigin="anonymous"></script>
+    <script src="imakewebthings-waypoints-34d9f6d/lib/jquery.waypoints.min.js"></script>
+    <script src="portfolyo.js"></script>
+
+
+</body>
+
+</html>
