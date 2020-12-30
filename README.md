@@ -1,3 +1,3 @@
 # Personal-Websites
 This repository created for personal websites.
-I am a freelancer.You can visit my website from this link.
+I am a freelancer Architect,Front-End Developer and Designer.You can visit my website from this link.
